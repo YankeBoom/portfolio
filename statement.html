@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Нарушениям.Нет</title>
+
+		 <!--==================== UNICONS ====================-->
+		 <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+		<!-- Reset -->
+		<link rel="stylesheet" href="./css/swiper-bundle.min.css">
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/base.css" />
+		<!-- Blocks -->
+		<link rel="stylesheet" href="./css/blocks/btn.css" />
+		<link rel="stylesheet" href="./css/blocks/header.css" />
+		<link rel="stylesheet" href="./css/blocks/home.css" />
+		<link rel="stylesheet" href="./css/blocks/slider.css">
+		<link rel="stylesheet" href="./css/blocks/memo.css" />
+		<link rel="stylesheet" href="./css/blocks/appointment.css" />
+		<link rel="stylesheet" href="./css/blocks/footer.css" />
+		<link rel="stylesheet" href="./css/blocks/scroll.css">
+		<link rel="stylesheet" href="./css/blocks/popup.css">
+		<link rel="stylesheet" href="./css/blocks/mobile-nav-button.css" />
+		<link rel="stylesheet" href="./css/blocks/mobile-nav.css" />
+		<!-- Fonts -->
+		<link rel="stylesheet" href="./css/fonts/Georgia/stylesheet.css" />
+		<link rel="stylesheet" href="./css/fonts/Lato/stylesheet.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header-row">
+					<div class="header-logo"><h1>Нарушениям.Нет</h1></div>
+					<nav class="header-nav">
+						<ul>
+							<li><a href="#appointment">Назначение</a></li>
+							<li><a href="#memo">Памятка</a></li>
+                            <li><a href="statement.php">Посмотреть заявление</a></li>
+						</ul>
+					</nav>
+					<div class="header-login">
+						<a class="header-login-link" href="index.html">Выход</a>
+						<a href="#" class="btn" data-popup="popup-order">Заявление</a>
+					</div>
+					<button type="button" class="mobile-nav-button">
+						<span class="mobile-nav-button__icon"></span>
+					</button>
+				</div>
+			</div>
+		</header>
+
+		<div class="mobile-nav">
+			<div class="header-logo"><h1>Нарушениям.Нет</h1></div>
+
+			<nav class="mobile-nav-list">
+				<ul>
+					<li><a href="#appointment">Назначение</a></li>
+					<li><a href="#memo">Памятка</a></li>
+				</ul>
+			</nav>
+
+			<div class="mobile-login">
+				<a class="" href="#" data-popup="popup-order2">Вход</a>
+				<a href="#" class="btn btn-big" data-popup="popup-order3">Регистрация</a>
+			</div>
+		</div>
+
+		<main>
+			<section class="home">
+				<div class="container">
+					<div class="home-content">
+						<h1 class="home-heading">Нарушениям <br> Нет</h1>
+					</div>
+				</div>
+				<div class="home-bg-img">
+					<img src="./img/home/bg.jpg" alt="Background cover" />
+				</div>
+			</section>
+
+			<section class="slider">
+				<div class="container slider__container swiper-container">
+					<div class="swiper-wrapper">
+						<div class="slider-contents swiper-slide">
+							<div class="slider-content">
+								<img class="slider__img" src="img/slider/slider-01.jpg" alt="slider__img">
+							</div>
+						</div>
+						<div class="slider-contents swiper-slide">
+							<div class="slider-content">
+								<img class="slider__img" src="img/slider/slider-03.jpeg" alt="slider__img">
+							</div>
+						</div>
+						<div class="slider-contents swiper-slide">
+							<div class="slider-content">
+								<img class="slider__img" src="img/slider/slider-03.jpeg" alt="slider__img">
+							</div>
+						</div>
+					</div>
+
+					<div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+				</div>
+			</section>
+
+			<section class="appointment" id="appointment">
+				<div class="container container-wide">
+					<div class="appointment-row">
+
+                        <div class="appointment-content">
+							<h2 class="appointment-heading">Назначение</h2>
+							<div class="appointment-text">
+								<p>Нарушениям.Нет (Госавтоинспекция МВД России)</p>
+							</div>
+						</div>
+
+						<div class="appointment-video">
+							<div id="video-appointment-overlay" class="appointment-video-overlay">
+								<button id="video-appointment-btn" class="appointment-video-btn">
+									<img id="video-appointment-btn-icon" width="82" height="82" src="./img/appointment/play-white.svg" alt="Play" />
+								</button>
+							</div>
+
+
+                            <video class="appointment-video-object" id="video-appointment">
+                                <source src="./video/Российской Госавтоинспекции исполнилось 87 лет.mp4" type="video/mp4">
+                            </video>
+
+						</div>
+                        <!-- //story-video -->
+					</div>
+				</div>
+			</section>
+
+			<section class="memo" id="memo">
+				<div class="container">
+					<div class="memo-header">
+						<div class="memo-header-head">
+							<h2 class="memo-title">предназначение</h2>
+							<h3 class="memo-subtitle">
+								Памятки
+							</h3>
+						</div>
+						<div class="memo-header-content">
+							<p>
+								Выходя на улицу, пользуясь транспортом,
+								вы часто не придерживаетесь определенных правил безопасности.
+								Главная цель этих правил - сохранить твою жизнь.
+							</p>
+						</div>
+					</div>
+
+					<div class="memo-steps">
+						<div class="step">
+							<h4 class="step-heading" data-number="01">Пешеходный переход</h4>
+
+							<div class="step-text">
+								<p>
+									здесь можно переходить дорогу.
+									Знак устанавливается возле зебры — разметки для пешеходов.
+									Объясните, что такой же знак «Пешеходный переход», но треугольный,
+									— предупреждающий, для водителей.
+								</p>
+							</div>
+
+							<div class="step-img-wrapper">
+								<img
+									class="step-img"
+									src="./img/steps/step-01.jpg"
+									alt="Step Img"
+								/>
+							</div>
+						</div>
+						<!-- //step -->
+
+						<div class="step">
+							<h4 class="step-heading" data-number="02">Движение запрещено</h4>
+
+							<div class="step-text">
+								<p>
+									идти нельзя. Красный, как и все запрещающие,
+									знак устанавливается там, где опасно передвигаться пешеходам,
+									в том числе на время дорожных работ. На автомагистралях движение
+									пешеходов запрещается всегда, даже если знака нет.
+								</p>
+							</div>
+
+							<div class="step-img-wrapper">
+								<img
+									class="step-img"
+									src="./img/steps/step-02.jpg"
+									alt="Step Img"
+								/>
+							</div>
+						</div>
+						<!-- //step -->
+
+						<div class="step">
+							<h4 class="step-heading" data-number="03">Подземный переход</h4>
+
+							<div class="step-text">
+								<p>
+									Этот знак устанавливается возле входа в переход.
+									Объясните ребенку, что там, где есть подземный переход,
+									переходить дорогу нужно именно по нему, а ни в коем случае не перебегать
+									через автомагистраль, даже если кажется, что машин нет.
+								</p>
+							</div>
+
+							<div class="step-img-wrapper">
+								<img
+									class="step-img"
+									src="./img/steps/step-03.jpeg"
+									alt="Step Img"
+								/>
+							</div>
+						</div>
+						<!-- //step -->
+					</div>
+				</div>
+			</section>
+
+		</main>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-content">
+					<h1 class="footer-logo">Нарушениям.Нет</h1>
+					<nav class="footer-nav">
+						<ul>
+							<li><a href="#appointment">Назначение</a></li>
+							<li><a href="#memo">Памятка</a></li>
+                            <li><a href="statement.php">Посмотреть заявление</a></li>
+						</ul>
+					</nav>
+					<h2 class="footer-year">2023</h2>
+				</div>
+			</div>
+		</footer>
+
+		<div class="popup popup-order">
+            <div class="popup__wrapper">
+              <div class="popup__inner">
+                <div class="popup__content">
+                  <button class="btn-close popup__btn-close popup-close"><i class="uil uil-times"></i></button>
+                  <h2 class="page-title popup__title">Сформировать заявление</h2>
+                  <div class="order">
+                    <form action="formulate_statement.php" method="post" class="form form-send">
+                      <input class="form__input" type="text" name="car_number" placeholder="Регистрационный номер автомобиля" id="car_number" required>
+                      <input class="form__input" type="text" name="description" placeholder="Описание нарушения" id="description" required>
+                      <input class="btn form__btn" type="submit" name="statement" value="Отправить">
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+		<!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+		<script src="./js/swiper-bundle.min.js"></script>
+		<script src="./js/main.js"></script>
+	</body>
+</html>
